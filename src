@@ -1,0 +1,63 @@
+bantuan  const =  ( awalan )  =>  {
+	return  `> * Perintah Stiker * <
+perintah: * $ { prefix } sticker * atau * $ { prefix } stiker *
+desc: mengubah gambar / gif / video menjadi stiker
+penggunaan: balas gambar / gif / video, atau kirim gambar / gif / video dengan teks \ n
+perintah: * $ { prefix } sticker nobg * atau * $ { prefix } stiker nobg *
+desc: ubah gambar menjadi stiker sambil menghapus latar belakang
+penggunaan: membalas gambar, atau mengirim gambar dengan teks \ n
+perintah: * $ { prefix } toimg *
+desc: mengubah stiker menjadi gambar
+penggunaan: stiker balas \ n
+perintah: * $ { prefix } tsticker * atau * $ { prefix } tstiker *
+desc: mengubah teks menjadi stiker
+penggunaan: * teks tsticker $ { prefix } di sini * \ n
+> * Perintah Meme * <
+perintah: * $ { prefix } meme *
+desc: gambar meme acak [inggris]
+penggunaan: kirim saja perintah \ n
+perintah: * $ { prefix } memeindo *
+desc: gambar meme acak [indo]
+penggunaan: kirim saja perintah \ n
+> * Perintah Lainnya * <
+perintah: * $ { prefix } gtts *
+desc: mengubah teks menjadi ucapan / audio
+penggunaan: * $ { prefix } gtts [cc] [text] * \ nexample: * $ { prefix } gtts ja On2-chan * \ n
+perintah: * $ { prefix } loli *
+desc: gambar loli acak
+penggunaan: kirim saja perintah \ n
+perintah: * $ { prefix } nsfwloli *
+desc: gambar loli nsfw acak
+penggunaan: kirim saja perintah \ n
+perintah: * $ { prefix } url2img *
+desc: ambil screenshot web
+penggunaan: * $ { prefix } url2img [tipe] [url] * \ n
+perintah: * $ { prefix } simi *
+desc: pesan Anda akan dibalas oleh simi
+penggunaan: * $ { prefix } simi yourmessage * \ n
+perintah: * $ { prefix } ocr *
+desc: ambil teks pada gambar
+penggunaan: membalas gambar, atau mengirim gambar dengan teks \ n
+perintah: * $ { prefix } tunggu *
+desc: cari anime dengan gambar [What Anime Is This / That]
+penggunaan: membalas gambar, atau mengirim gambar dengan teks \ n
+perintah: * $ { prefix } setprefix *
+desc: ganti awalan
+penggunaan: * $ { prefix } setprefix [teks | opsional] * \ nexample: * $ { prefix } setprefix? *
+catatan: Perintah ini hanya dapat digunakan oleh pemilik bot \ n
+> * Perintah Grup * <
+perintah: * $ { prefix } linkgroup *
+desc: ambil tautan grup
+penggunaan: kirim saja perintah \
+catatan: hanya dapat digunakan ketika bot menjadi admin, dan yang mengirimkan perintah adalah admin! \ n
+perintah: * $ { prefix } tagall *
+desc: menandai semua anggota grup termasuk admin juga
+penggunaan: kirim saja perintahnya
+catatan: Perintah ini dapat digunakan jika Anda adalah admin grup \ n
+perintah: * $ { prefix } simih *
+desc: aktifkan mode simi di grup
+penggunaan: * $ { prefix } simih 1 * untuk mengaktifkan mode simi dan * $ { prefix } simih 0 * untuk menonaktifkan mode simi
+catatan: Perintah ini dapat digunakan jika Anda adalah admin grup \ n`
+}
+
+ekspor. bantuan = bantuan
